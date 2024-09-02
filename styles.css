@@ -703,3 +703,24 @@
     width: 100%;
   }
 }
+
+
+/* Price Tag CSS */
+.price-tag {
+  background: #ff7e5f;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.price-tag span {
+  background-color: #fff;
+  color: #ff7e5f;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
